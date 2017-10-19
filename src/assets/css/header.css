@@ -1,0 +1,27 @@
+header {
+	padding: 0 0 0 10px;
+	height: 40px;
+	line-height: 40px;
+	background: #f2f2f2;
+}
+
+header strong {
+	font-size: 14px;
+	text-transform: uppercase;
+}
+
+.settings {
+	display: inline-block;
+	vertical-align: top;
+	float: right;
+	width: 40px;
+	height: 40px;
+	font-size: 24px;
+	text-decoration: none;
+	text-align: center;
+	color: black;
+}
+
+.settings.active {
+	box-shadow: 0 0 10px rgba(0,0,0,0.7);
+}
