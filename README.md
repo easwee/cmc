@@ -1,6 +1,6 @@
 Simple app that lists top 100 cryptocurrencies
 
-To clone build and run:
+To clone, build and run:
 ```
 git clone https://github.com/easwee/cmc.git
 ```
