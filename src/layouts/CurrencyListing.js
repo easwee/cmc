@@ -12,7 +12,6 @@ import CONFIG       from '../config/Configuration';
 class CurrencyListing extends Component {
 
     componentDidMount() {
-        console.log('Did mount.');
         var store = this.props.currencyStore;
 
         if(!store.getCurrencies()) {
@@ -25,7 +24,6 @@ class CurrencyListing extends Component {
 
         axios.get(url)
             .then(function(res) {
-                console.log('Fetched data.');
                 this.props.currencyStore.setCurrencies(res.data);
             }.bind(this))
             .catch((error) => {

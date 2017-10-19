@@ -35,7 +35,6 @@ class CurrencyDetail extends Component {
 
     renderInfo() {
         var store = this.props.currencyStore;
-        var currencyObject = store.getCurrency();
 
         if(store.getCurrency()) {
             return (

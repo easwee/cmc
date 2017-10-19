@@ -36,8 +36,6 @@ class CurrencyStore {
     clearCurrency() {
         this.currency = null;
     }
-
 }
-
 
 export default new CurrencyStore();

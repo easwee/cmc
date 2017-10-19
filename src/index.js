@@ -10,14 +10,14 @@ import currencyStore from './stores/currencyStore';
 const stores = { currencyStore }; // add more stores if later needed to make them available to all routes
 
 ReactDOM.render(
-	(
-		<Provider {...stores}>
-			<BrowserRouter>
-		    	<App />
-		  	</BrowserRouter>
-	  	</Provider>
-  	),
-	document.getElementById('root')
+    (
+        <Provider {...stores}>
+            <BrowserRouter>
+                <App />
+            </BrowserRouter>
+        </Provider>
+    ),
+    document.getElementById('root')
 );
 
 registerServiceWorker();
